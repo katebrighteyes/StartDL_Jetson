@@ -6,6 +6,13 @@ Jetpack 4.X =<
 
 sudo sh -c 'echo 50 > /sys/devices/pwm-fan/target_pwm'
 
+# git clone
+
+git clone https://github.com/katebrighteyes/StartDL_Jetson
+
+cd StartDL_Jetson
+
+sudo chmod 777 *.sh
 
 # 1. Python Dev
 
@@ -23,7 +30,11 @@ about 40 minutes
 
 # 3. G-Streamer 
 
-./basic_setup.sh
+./install_gstreamer.sh
+
+# torch to trt
+
+./install_torch2trt.sh
 
 
 * gtk err
