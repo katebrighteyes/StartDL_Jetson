@@ -24,3 +24,8 @@ about 40 minutes
 # 3. G-Streamer 
 
 ./basic_setup.sh
+
+
+* gtk err
+
+sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
