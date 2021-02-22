@@ -36,7 +36,12 @@ about 40 minutes
 
 ./install_torch2trt.sh
 
+# jtop
 
+apt-get install python-pip
+sudo -H pip install -U jetson-stats
+
+----------------------------------
 * gtk err
 
 sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
