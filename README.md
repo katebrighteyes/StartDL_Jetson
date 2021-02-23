@@ -1,12 +1,14 @@
 # StartDL_Jetson 
 
-Jetpack 4.X =<
+Jetpack 4.4 =<
+
+줏어모은 Nvidia Jetson 에 사용하면 좋은 것들 리스트.
 
 # recommend pwm fan on always
 
 sudo sh -c 'echo 50 > /sys/devices/pwm-fan/target_pwm'
 
-# git clone
+# 현재 repository 설치 git clone
 
 git clone https://github.com/katebrighteyes/StartDL_Jetson
 
@@ -44,6 +46,7 @@ pb -> uff Convert uff 변환 툴을 사용하기 위해서는 tensorflow 설치�
 
 # jtop
 
+무조건 설치하자
 apt-get install python-pip
 
 sudo -H pip install -U jetson-stats
