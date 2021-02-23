@@ -28,7 +28,7 @@ sudo apt-get install libpython3-dev python3-numpy
 about 40 minutes
 
 
-# 3. G-Streamer 
+# 3. G-Streamer for OpenCV
 
 ./install_gstreamer.sh
 
@@ -36,9 +36,16 @@ about 40 minutes
 
 ./install_torch2trt.sh
 
+# Install Tensorflow 1.x
+
+pb -> uff Convert uff 변환 툴을 사용하기 위해서는 tensorflow 설치가 우선 되어야합니다.
+
+./install_tensorflow_1.x.sh
+
 # jtop
 
 apt-get install python-pip
+
 sudo -H pip install -U jetson-stats
 
 ----------------------------------
