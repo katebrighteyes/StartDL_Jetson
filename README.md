@@ -55,3 +55,6 @@ sudo -H pip install -U jetson-stats
 * gtk err
 
 sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
+
+----------------
+sudo jetson_clocks
