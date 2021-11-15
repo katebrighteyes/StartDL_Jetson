@@ -1,3 +1,13 @@
+https://drive.google.com/file/d/1bzWKC7B9o-m8VURcbXgIRyXGH5aRr9et/view?usp=sharing
+
+* gtk err
+
+sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
+
+
+
+
+
 # StartDL_Jetson 
 
 Jetpack 4.4 =<
